@@ -410,7 +410,7 @@ header .main-para {
 }
 @media (min-width: 1441px) {
   body {
-    background-position: 50% 9%, 100% -150%;
+    background-position: 50% 9%, 100% -100%;
     background-size: 8%, 100%;
   }
 
