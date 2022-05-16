@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 
+// background-position: 
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #f9faff;
+  background-image:url(../images/pattern-circles.svg), url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 9%, 0% 0%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}

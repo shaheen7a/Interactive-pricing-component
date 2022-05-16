@@ -1,0 +1,17 @@
+header {
+  text-align: center;
+  margin-top: 86px;
+  .main-title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .main-para {
+    margin: auto;
+    margin-top: 8px;
+    width: 55%;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.8;
+    color: $grayishBlue;
+  }
+}

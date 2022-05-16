@@ -1,0 +1,93 @@
+@media (min-width:678px) {
+  header {
+    .main-title {
+      font-size: 32px;
+    }
+
+    .main-para {
+      font-size: 17px;
+    }
+  }
+
+  .box {
+    width: 45%;
+    margin: 85px auto;
+    position: relative;
+
+    .first-sec {
+      display: grid;
+      grid-template-columns: 50% 50% 100%;
+      padding-top: 16px;
+
+      .box-title {
+        font-size: 14px;
+      }
+
+      .range {
+        order: 3;
+        position: absolute;
+        // margin-top: 80px;
+        margin: 80px auto;
+        width: 100%;
+
+        .form {
+          margin: 20px auto;
+          width: 80%;
+        }
+      }
+
+      .the-price {
+        font-size: 16px;
+        margin-top: 16px;
+
+        .p-num {
+          font-size: 40px;
+        }
+      }
+    }
+
+    .second-sec {
+      margin: 120px 40px 54px 40px;
+
+      .toggle {
+        .name {
+          font-size: 14px;
+        }
+
+        .name span {
+          display: none;
+        }
+
+        .y-discount {
+          &::after {
+            content: "25% discount";
+            color: hsl(15, 100%, 70%);
+            background-color: hsl(14, 92%, 95%);
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 30px;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+
+    .third-sec {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+@media (min-width:1441px) {
+  body {
+    background-position: 50% 9%, 100% -150%;
+    background-size: 8%,100%;
+  }
+
+  .box {
+    margin-top: 150px;
+    width: 26%;
+  }
+}

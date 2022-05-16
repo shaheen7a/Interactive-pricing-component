@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Interactive pricing component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div role="application" class="container">
+      <header role="heading" class="main-header">
+        <h3 class="main-title">Simple, traffic-based pricing</h3>
+        <p class="main-para">
+          Sign-up for our 30-day trial. No credit card required.
+        </p>
+      </header>
+
+      <div role="main" class="box">
+        <div class="first-sec">
+          <div class="box-title">100K PAGEVIEWS</div>
+
+          <div class="range range-desktop">
+            <form class="form">
+              <input
+                type="range"
+                name="range-slider"
+                id="range-slider"
+                min="0"
+                max="10"
+                value="5"
+              />
+            </form>
+          </div>
+
+          <div class="the-price"><span class="p-num">$16.00</span>/month</div>
+        </div>
+
+
+        <div class="second-sec">
+
+          <div class="toggle">
+            <label class="name">Monthly Billing</label>
+            <input type="checkbox" class="checkbox" id="checkbox" />
+  
+            <label for="checkbox" class="label">
+              <div class="ball"></div>
+            </label>
+  
+            <label class="name y-discount">
+              Yearly Billing <span>-25%</span></label>
+          </div>
+
+      </div>
+
+      <div class="line">
+        <!-- Iam a break line -->
+      </div>
+
+
+      <div class="third-sec">
+        <div class="list">
+          <ul class="u-list">
+            <li class="list-item">Unlimited websites</li>
+            <li class="list-item">100% data ownership</li>
+            <li class="list-item">Email reports</li>
+          </ul>
+        </div>
+
+        <div class="btn">
+          <div class="start-btn">
+            <a href="">Start my trial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--25% discount
+  -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Aous Shaheen</a>.
+    </div>
+  </body>
+</html>
